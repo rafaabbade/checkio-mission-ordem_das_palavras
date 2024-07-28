@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def ordem_das_palavras(texto, palavras):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(ordem_das_palavras("Eu gosto de programar em Python", ["gosto", "programar"]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert ordem_das_palavras("Eu gosto de programar em Python", ["gosto", "programar"]) == True
+assert ordem_das_palavras("Eu gosto de programar em Python", ["programar", "gosto"]) == False
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

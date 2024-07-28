@@ -13,11 +13,11 @@ TESTS = {
         
     {
         "input": ["Eu gosto de programar em Python", ["gosto", "programar"]],
-        "answer": true
+        "answer": True
     },
     {
         "input": ["Eu gosto de programar em Python", ["programar", "gosto"]],
-        "answer": false
+        "answer": False
     }
 
     ]
